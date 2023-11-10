@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Atividade 010 - Lourenço Sequeira</title>
+  <link href="styles.css" rel="stylesheet"/>
+
+</head>
+
+<body>
+  <h1>Comparador de Números</h1>
+  
+  <!--Inputs-->
+  <table>
+  <form>
+    <tr style="height: 15%;">
+    <th style="width: 4%;"><label for="numero1">Número 1:</label></th><br>
+    <th style="width: 20%;"><input type="number" id="numero1" name="numero1"></th><br>
+</tr>
+<tr style="height: 15%;">
+    <th style="width: 4%;"><label for="numero2">Número 2:</label></th><br>
+    <th style="width: 20%;"><input type="number" id="numero2" name="numero2"></th><br>
+</tr>
+<tr style="height: 15%;">
+    <th style="width: 4%;"><label for="numero3">Número 3:</label></th><br>
+    <th style="width: 20%;"><input type="number" id="numero3" name="numero3"></th><br>
+</tr>
+<tr class="linha4" style="height: 15%;">
+    <th class="linha4"><button type="button" onclick="comparar()">Comparar</button>
+    <input type="reset" value="Reset" class="buttonreset"></th>
+</tr>  
+  </form>
+  </table>
+  
+  <!--Output HTML-->
+  <div id="outputHTML" class="comparar"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
